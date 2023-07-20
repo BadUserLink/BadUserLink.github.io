@@ -12,7 +12,7 @@ export const Home = () => {
     const ShowElev = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.get(`https://band-fuyo.onrender.com/elev/${searchIDNP}`);
+        const response = await axios.get(`/elev/${searchIDNP}`);
         setSearchedStudent(response.data);
         setSearchError('');
       } catch (error) {
