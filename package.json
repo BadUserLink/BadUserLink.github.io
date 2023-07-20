@@ -41,5 +41,8 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "node": ">=15 <17"
+  },
   "proxy": "https://band-fuyo.onrender.com/"
 }
